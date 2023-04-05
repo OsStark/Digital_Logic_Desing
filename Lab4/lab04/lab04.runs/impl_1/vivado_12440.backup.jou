@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 27 14:32:52 2022
+# Process ID: 12440
+# Current directory: C:/Users/user/lab04/lab04.runs/impl_1
+# Command line: vivado.exe -log seven.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source seven.tcl -notrace
+# Log file: C:/Users/user/lab04/lab04.runs/impl_1/seven.vdi
+# Journal file: C:/Users/user/lab04/lab04.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source seven.tcl -notrace

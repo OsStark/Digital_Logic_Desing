@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1665039628">
+  <File Type="ROUTE-PWR" Name="fourbitmultiplier_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fourbitmultiplier.tcl"/>
+  <File Type="BITSTR-MMI" Name="fourbitmultiplier.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fourbitmultiplier_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fourbitmultiplier_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="fourbitmultiplier_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fourbitmultiplier_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="fourbitmultiplier_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="fourbitmultiplier_opt.dcp"/>
+  <File Type="OPT-DRC" Name="fourbitmultiplier_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fourbitmultiplier.hwdef"/>
+  <File Type="PWROPT-DCP" Name="fourbitmultiplier_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="fourbitmultiplier_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fourbitmultiplier_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fourbitmultiplier_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fourbitmultiplier_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fourbitmultiplier_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fourbitmultiplier_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fourbitmultiplier_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fourbitmultiplier_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fourbitmultiplier_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fourbitmultiplier_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="fourbitmultiplier.bin"/>
+  <File Type="PLACE-TIMING" Name="fourbitmultiplier_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fourbitmultiplier_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="fourbitmultiplier.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fourbitmultiplier_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fourbitmultiplier_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fourbitmultiplier_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="fourbitmultiplier.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="fourbitmultiplier_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fourbitmultiplier_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="fourbitmultiplier_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fourbitmultiplier_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fourbitmultiplier_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fourbitmultiplier_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fourbitmultiplier_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fourbitmultiplier_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fourbitmultiplier_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fourbitmultiplier_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fourbitmultiplier_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fourbitmultiplier_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fourbitmultiplier_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fourbitmultiplier_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fourbitmultiplier_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fourbitmultiplier_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fourbitmultiplier_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fourbitmultiplier_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fourbitmultiplier_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fourbitmultiplier_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fourbitmultiplier_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fourbitmultiplier_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fourbitmultiplier_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fourbitmultiplier_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fourbitmultiplier_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fourbitmultiplier_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fourbitmultiplier_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="fourbitmultiplier.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fourbitmultiplier_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fourbitmultiplier_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="fourbitmultiplier.nky"/>
+  <File Type="BITSTR-BMM" Name="fourbitmultiplier_bd.bmm"/>
+  <File Type="PDI-FILE" Name="fourbitmultiplier.pdi"/>
+  <File Type="RCFI_FILE" Name="fourbitmultiplier.rcfi"/>
+  <File Type="CFI_FILE" Name="fourbitmultiplier.cfi"/>
+  <File Type="RNPI_FILE" Name="fourbitmultiplier.rnpi"/>
+  <File Type="NPI_FILE" Name="fourbitmultiplier.npi"/>
+  <File Type="RBD_FILE" Name="fourbitmultiplier.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fourbitmultiplier.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="fourbitmultiplier.sysdef"/>
+  <File Type="BG-BGN" Name="fourbitmultiplier.bgn"/>
+  <File Type="BG-DRC" Name="fourbitmultiplier.drc"/>
+  <File Type="RDI-RDI" Name="fourbitmultiplier.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../lab02/lab02.srcs/sources_1/new/fourbit_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_2/project_2.srcs/sources_1/new/full_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fourbitmultiplier.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fourbitmultiplier"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

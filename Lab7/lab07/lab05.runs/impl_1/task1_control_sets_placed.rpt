@@ -1,0 +1,94 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec 15 13:53:34 2022
+| Host         : DESKTOP-PCP5PSB running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file task1_control_sets_placed.rpt
+| Design       : task1
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     5 |
+| >= 6 to < 8        |     5 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |           17 |
+| No           | No                    | Yes                    |              69 |           18 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+---------------+------------------+------------------+----------------+--------------+
+|     Clock Signal     | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+---------------+------------------+------------------+----------------+--------------+
+|  CLK_sec_reg_i_2_n_0 |               |                  |                1 |              1 |         1.00 |
+|  down_reg_i_2_n_0    |               |                  |                1 |              1 |         1.00 |
+|  CLK_min_reg_i_2_n_0 |               |                  |                1 |              1 |         1.00 |
+|  UPC3/carry_reg_0    |               | reset_IBUF       |                1 |              4 |         4.00 |
+|  UPC1/carry_reg_0    |               | reset_IBUF       |                1 |              5 |         5.00 |
+|  CLK_sec             |               | reset_IBUF       |                1 |              5 |         5.00 |
+|  CLK_min             |               | reset_IBUF       |                1 |              5 |         5.00 |
+|  off__0              |               |                  |                2 |              5 |         2.50 |
+|  DIVIDER/out[1]      |               | reset_IBUF       |                2 |              6 |         3.00 |
+|  UPC1/E[0]           |               |                  |                2 |              7 |         3.50 |
+|  UPC2/E[0]           |               |                  |                2 |              7 |         3.50 |
+|  UPC3/E[0]           |               |                  |                2 |              7 |         3.50 |
+|  UPC4/E[0]           |               |                  |                2 |              7 |         3.50 |
+| ~off                 |               |                  |                4 |              8 |         2.00 |
+|  DIVIDER/out[0]      |               | reset_IBUF       |                6 |             20 |         3.33 |
+|  CLK_IBUF_BUFG       |               | reset_IBUF       |                6 |             24 |         4.00 |
++----------------------+---------------+------------------+------------------+----------------+--------------+
+
+

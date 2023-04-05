@@ -1,0 +1,22 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 73b5866cc37249b6a79e04a578f18f79 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot fourbitmultiplier_sim_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.fourbitmultiplier_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "fourbitmultiplier_sim_time_synth.sdf", for root module "fourbitmultiplier_sim/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "fourbitmultiplier_sim_time_synth.sdf", for root module "fourbitmultiplier_sim/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2(INIT=4'b1000)
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.IBUF
+Compiling module xil_defaultlib.fourbitmultiplier
+Compiling module xil_defaultlib.fourbitmultiplier_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fourbitmultiplier_sim_time_synth

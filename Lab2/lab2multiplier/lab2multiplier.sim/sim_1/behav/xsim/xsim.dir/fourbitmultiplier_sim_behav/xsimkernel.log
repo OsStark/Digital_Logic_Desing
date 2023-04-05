@@ -1,0 +1,4 @@
+Running: xsim.dir/fourbitmultiplier_sim_behav/xsimk.exe -simmode gui -wdb fourbitmultiplier_sim_behav.wdb -simrunnum 0 -socket 54264
+Design successfully loaded
+Design Loading Memory Usage: 6796 KB (Peak: 6796 KB)
+Design Loading CPU Usage: 15 ms

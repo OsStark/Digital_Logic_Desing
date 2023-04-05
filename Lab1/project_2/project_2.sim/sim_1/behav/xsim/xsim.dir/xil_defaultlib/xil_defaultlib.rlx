@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/user/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/user/project_2/project_2.srcs/sim_1/new/full_adder_sim2.v,1663830981,verilog,,,,full_adder_sim2,,,,,,,,
+C:/Users/user/project_2/project_2.srcs/sim_1/new/half_adder_sim.v,1663830401,verilog,,,,half_adder_sim,,,,,,,,
+C:/Users/user/project_2/project_2.srcs/sources_1/new/full_adder.v,1663832686,verilog,,C:/Users/user/project_2/project_2.srcs/sim_1/new/full_adder_sim2.v,,full_adder,,,,,,,,
+C:/Users/user/project_2/project_2.srcs/sources_1/new/half_adder.v,1663827325,verilog,,C:/Users/user/project_2/project_2.srcs/sim_1/new/half_adder_sim.v,,half_adder,,,,,,,,

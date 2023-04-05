@@ -1,0 +1,287 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Nov 30 20:08:04 2022
+# Process ID: 5692
+# Current directory: C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.runs/synth_1
+# Command line: vivado.exe -log task1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source task1.tcl
+# Log file: C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.runs/synth_1/task1.vds
+# Journal file: C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source task1.tcl -notrace
+Command: synth_design -top task1 -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7100
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'task1' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (1#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/debounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (2#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (3#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/debounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'upcounter1Hz' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounter1Hz.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'upcounter1Hz' (4#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounter1Hz.v:22]
+WARNING: [Synth 8-567] referenced signal 'Spause_CLK' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'BplusSec_CLK' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'BplusMin_CLK' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'BplusHour_CLK' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'Sfreq_CLK' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'DIV' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'CLK_1Hz' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'C2' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+WARNING: [Synth 8-567] referenced signal 'C4' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:71]
+INFO: [Synth 8-6157] synthesizing module 'upcounter' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounter.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'upcounter' (5#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'upcounterHOUR' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounterHOUR.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'upcounterHOUR' (6#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/upcounterHOUR.v:22]
+INFO: [Synth 8-6157] synthesizing module 'seven' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/seven.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/seven.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'seven' (7#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/seven.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sevenHOUR' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/sevenHOUR.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/sevenHOUR.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sevenHOUR' (8#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/sevenHOUR.v:23]
+WARNING: [Synth 8-7071] port 'carry' of module 'upcounter' is unconnected for instance 'DISupc' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:107]
+WARNING: [Synth 8-7071] port 'carrycontrol' of module 'upcounter' is unconnected for instance 'DISupc' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:107]
+WARNING: [Synth 8-7023] instance 'DISupc' of module 'upcounter' has 7 connections declared, but only 5 given [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:107]
+WARNING: [Synth 8-567] referenced signal 'OUT1' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:108]
+WARNING: [Synth 8-567] referenced signal 'OUT4' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:108]
+WARNING: [Synth 8-567] referenced signal 'OUT2' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:108]
+WARNING: [Synth 8-567] referenced signal 'OUT56' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:108]
+WARNING: [Synth 8-567] referenced signal 'OUT3' should be on the sensitivity list [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'task1' (9#1) [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/constrs_1/new/constraint222.xdc]
+Finished Parsing XDC File [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/constrs_1/new/constraint222.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/constrs_1/new/constraint222.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/task1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/task1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'OUT_reg' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/seven.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'OUT_reg' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/sevenHOUR.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'OUTleft_reg' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:113]
+WARNING: [Synth 8-327] inferring latch for variable 'OUTright_reg' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:112]
+WARNING: [Synth 8-327] inferring latch for variable 'DIS_reg' [C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.srcs/sources_1/new/task1.v:114]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 5     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input    7 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 15    
+	   2 Input    1 Bit        Muxes := 13    
+	  11 Input    1 Bit        Muxes := 4     
+	  25 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|sevenHOUR   | OUT        | 32x12         | LUT            | 
+|task1       | SEV56/OUT  | 32x12         | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     6|
+|4     |LUT2   |     3|
+|5     |LUT3   |    13|
+|6     |LUT4   |    52|
+|7     |LUT5   |    50|
+|8     |LUT6   |     2|
+|9     |FDCE   |    72|
+|10    |FDPE   |    11|
+|11    |LD     |    54|
+|12    |LDC    |     1|
+|13    |LDCP   |     2|
+|14    |IBUF   |     7|
+|15    |OBUF   |    20|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1123.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1123.172 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 57 instances were transformed.
+  LD => LDCE: 54 instances
+  LDC => LDCE: 1 instance 
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 2 instances
+
+Synth Design complete, checksum: 8037c634
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1123.172 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Oscar/Desktop/carpetas/cole/2022.2/DLD/lab06again/lab05.runs/synth_1/task1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file task1_utilization_synth.rpt -pb task1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 30 20:08:30 2022...
